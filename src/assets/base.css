@@ -1,0 +1,13 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --color-light-cream: hsl(43, 59%, 92%);
+  --color-cream: hsl(45, 64%, 83%);
+  --color-baked-bread: hsl(25, 43%, 68%);
+  --color-cinnamon: hsl(19, 65%, 47%);
+  --color-milk-chocolate: hsl(21, 48%, 43%);
+  --color-coffee: hsl(19, 69%, 20%);
+
+body{
+  margin: 0%;
+}
+}
