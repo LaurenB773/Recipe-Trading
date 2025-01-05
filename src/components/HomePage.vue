@@ -1,9 +1,9 @@
 <template class="intro">
   <link rel="stylesheet" href="base.css">
-  <h1 class="home-intro">
+  <!-- <h1 class="home-intro">
     <img src="/src/assets/LDR.icon.png" alt="logo">
     Store recipes and share with those you love most
-  </h1> 
+  </h1>  -->
 <main>
 
   <!-- <body>

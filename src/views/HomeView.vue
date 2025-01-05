@@ -8,7 +8,7 @@
 <script>
 
 import HomePage from "../components/HomePage.vue"
-import AboutView from "./AboutView.vue";
+import About from "./About.vue";
 
 export default {
     beforeCreate() {
@@ -21,7 +21,7 @@ export default {
 
   components: {
     HomePage,
-    AboutView
+    About
   },
 };
 

@@ -1,26 +1,28 @@
 <template>
-  <img class="logo-pic" src="/src/assets/LDR.icon.png" alt="logo">
-  <Navbar/>
-  <router-view />
+  <div id= "app">
+     <img class="logo-pic" src="/src/assets/LDR.icon.png" alt="logo">
+  <router-view/>
+  </div>
+ 
 </template>
 
 <script>
 import Navbar from "./components/Nav.vue";
 
 export default {
-  components: { Navbar },
+  name: "app",
+  // components: { Navbar },
 };
 </script>
 
 <style>
-
 .logo-pic {
   margin-top: -15px;
   position: absolute;
   left: 0;
   top: 0;
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
 }
 </style>
 
