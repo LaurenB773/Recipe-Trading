@@ -1,21 +1,12 @@
 <template class="intro">
   <link rel="stylesheet" href="base.css">
-  <!-- <h1 class="home-intro">
-    <img src="/src/assets/LDR.icon.png" alt="logo">
-    Store recipes and share with those you love most
-  </h1>  -->
-<main>
 
-  <!-- <body>
-    <h1 class="home-intro">
-    <img src="/src/assets/LDR.icon.png" alt="logo">
+<main>
+    <h1 id="home-intro">
     Store recipes and share with those you love most
   </h1> 
-  </body> -->
 </main>
   
-
-
 </template>
 
  <style>
@@ -29,7 +20,10 @@
     background-repeat: no-repeat; 
     background-position: center;
  }
- .home-intro{
+ #home-intro{
   color: var(--color-cream);
+  align-self: bottom;
+  height: fit-content;
+ 
  }
 </style>

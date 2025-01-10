@@ -1,6 +1,7 @@
 <template>
   <div id= "app">
      <img class="logo-pic" src="/src/assets/LDR.icon.png" alt="logo">
+     <Navbar />
   <router-view/>
   </div>
  
@@ -11,7 +12,7 @@ import Navbar from "./components/Nav.vue";
 
 export default {
   name: "app",
-  // components: { Navbar },
+  components: { Navbar },
 };
 </script>
 
